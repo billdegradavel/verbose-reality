@@ -8287,7 +8287,7 @@ AFRAME.registerComponent('arjs-anchor', {
 				markerParameters.markersAreaEnabled = true
 			}else if( _this.data.preset === 'citroen' ){
 				markerParameters.type = 'pattern'
-				markerParameters.patternUrl = 'https://raw.githubusercontent.com/billdegradavel/verbose-reality/master/markers/pattern_mk4.patt'
+				markerParameters.patternUrl = 'https://cdn.rawgit.com/billdegradavel/verbose-reality/master/markers/pattern_mk4.patt'
 				markerParameters.markersAreaEnabled = false
 			}else if( _this.data.type === 'barcode' ){
 				markerParameters = {
